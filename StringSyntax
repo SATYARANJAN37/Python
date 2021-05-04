@@ -1,0 +1,25 @@
+#import random,math
+#a = 10
+#b = 30
+#print(random.randint(a,b))
+#print(int(math.pow(2,3)))
+#d=input("Whats your name? : ")
+#print("My name is :", d)
+#m=input("favorite sport ? :")
+#n=input("favorite webseries ? :")
+#qus = "Your favourite sport is {} and your favourite webseries is {}"
+#output=qus.format(m,n)
+#print(output)
+#print(output.count("is"))
+#str="  ..,,  ranjan pp,,"
+#print(str.upper())
+#print(str.lower())
+#print(str.title())
+#print(str.index("ranj"))
+#print(str.find("ranj"))
+#print(str.strip(" .,p"))
+#print(len(str))
+#print(str[5])
+#print(str[8:14:1])
+#print(str[:14])
+#print(str[:-4])
