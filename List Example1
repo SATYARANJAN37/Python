@@ -1,0 +1,38 @@
+#list=[10,20, "Satya", 1,3,5, False]
+#print(list)
+#print(list[2])
+#print(list[-2])
+#list_new=["satya","ranjan",[1,2,3]]
+#print(list_new[0:2])
+#print(list_new[2][2])
+#print("satya" in list_new)
+#a=int(input("Enter a number : "))
+#print("The Number you entered is: ",a)
+#while a>6:
+#    print("Format is correct. Keep entering....")
+#    a=int(input("Enter a number : "))
+#    print("The Number you entered is: ",a)
+#print("Loop has been broken")
+print("Welcome to List Operation")
+valid_users = ["satya", "sagar", "sandesh", "amruth", "rakesh"]
+a=input("Enter your name for authentication : ").strip()
+if a in valid_users:
+    print("Welcome {}".format(a),"Your name exist in record valid_users")
+    print("User List : ",valid_users)
+    delete = input("Do you want to remove any name? (Y/N) : ").lower()
+else:
+    print("Who are you {}:".format(a),"Your name is not exist in record valid_users")
+if delete=="y":
+    qus = input("Do you want to remove specific name or index wise ? N/I?").strip().lower()
+    if qus == "n":
+        name = input("Type the name you want to remove : ")
+        if name in valid_users:
+            valid_users.remove(name)
+            print("Name Removed : {}".format(name))
+        else:
+            print("Name not recognized")
+    else:
+        index = int(input("Enter the index number you want to remove : "))
+        name = valid_users[index]
+        del valid_users[index]
+        print("Index {} Deleted. Name : {}".format(index,name))
