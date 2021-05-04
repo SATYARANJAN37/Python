@@ -1,0 +1,15 @@
+a= 100
+b=200
+if a==b:
+    print("Incorrect")
+elif a>b:
+    print("Incorrect")
+elif:
+    print("Correct")
+elif not a==b:
+    print("Correct")
+
+if (a>80 and b>100);
+    print("correct")
+if (a>80 or b>100);
+    print("Incorrect")
