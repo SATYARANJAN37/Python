@@ -1,0 +1,11 @@
+A = [1,2,3]
+A = A + [4]
+A.append("satya")
+A=A+["sagar"]
+A=A+list("Hero")
+A=A+[5,6]
+A=A+[[7,8]]
+A.insert(2,100)
+A.append(10)
+A.remove(3)
+print(A)
