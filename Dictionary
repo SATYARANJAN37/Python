@@ -1,0 +1,15 @@
+#dictstr = {"Satya": 25, "Sagar": 20}
+#print(dictstr)
+#print(dictstr["Sagar"])
+#dictstr["Sandesh"] = 30
+#print(dictstr)
+#print(dictstr.keys())
+#print(dictstr["Satya"])
+#del dictstr["Satya"]
+#print(dictstr.values())
+#dictstr = {"Satya": ["Developer",48,1994], "Sagar": ["Tester",28,1995]}
+#print(dictstr)
+#print(dictstr["Satya"][0:2])
+#print(dictstr["Satya"])
+#newdict = {"Satya":{"Role":"Developer", "Age":25, "Job":"Genpact"}, ,"Sagar":{"Role":"Tester", "Age":24, "Job":"Accenture"}}
+#print(newdict["Satya"]["Job"])
